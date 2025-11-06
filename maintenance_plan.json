@@ -1,0 +1,115 @@
+{
+  "project_name": "[ENTER YOUR PROJECT NAME]",
+  "maintenance_period": "6 months (job search duration)",
+  "created_date": "[YYYY-MM-DD]",
+  "review_schedule": "Monthly",
+
+  "cost_budget": {
+    "monthly_costs": {
+      "hosting": {
+        "provider": "[e.g., Railway, Render, Vercel]",
+        "plan": "[e.g., Free Tier, Hobby $5/mo]",
+        "estimated_cost_usd": 0
+      },
+      "api_services": {
+        "openai": {
+          "estimated_monthly_calls": 0,
+          "estimated_cost_usd": 0
+        },
+        "vector_db": {
+          "provider": "[e.g., Pinecone, Weaviate]",
+          "plan": "[e.g., Free Tier]",
+          "estimated_cost_usd": 0
+        },
+        "other_services": {
+          "description": "[any other APIs]",
+          "estimated_cost_usd": 0
+        }
+      },
+      "domain": {
+        "annual_cost_usd": 0,
+        "monthly_equivalent_usd": 0
+      }
+    },
+    "total_monthly_cost_usd": 0,
+    "six_month_total_usd": 0,
+    "budget_limit_usd": 50,
+    "cost_alert_threshold_usd": 40
+  },
+
+  "time_budget": {
+    "monthly_hours": {
+      "monitoring_alerts": 1,
+      "dependency_updates": 2.5,
+      "bug_fixes": 3,
+      "performance_tuning": 1,
+      "documentation_updates": 0.5
+    },
+    "total_monthly_hours": 8,
+    "six_month_total_hours": 48,
+    "time_limit_hours_per_month": 10,
+    "time_alert_threshold_hours": 15
+  },
+
+  "maintenance_schedule": {
+    "weekly": [
+      "Check uptime monitoring dashboard",
+      "Review error logs if any alerts"
+    ],
+    "monthly": [
+      "Update dependencies (pip, npm)",
+      "Review security advisories",
+      "Test core functionality",
+      "Update cost tracking",
+      "Verify demo still works end-to-end"
+    ],
+    "quarterly": [
+      "Review maintenance plan",
+      "Assess maintain vs sunset decision",
+      "Update README if needed"
+    ]
+  },
+
+  "decision_criteria": {
+    "continue_maintaining_if": [
+      "Job search ongoing (<6 months)",
+      "Demo generates interview callbacks",
+      "Monthly cost < $50",
+      "Monthly time < 10 hours",
+      "Demo provides learning opportunities"
+    ],
+    "sunset_if": [
+      "Job offer accepted",
+      "No callbacks from demo in 60+ days",
+      "Monthly cost exceeds $75",
+      "Monthly time exceeds 15 hours",
+      "Technical debt overwhelming",
+      "Better portfolio projects available"
+    ]
+  },
+
+  "maintenance_log": [
+    {
+      "date": "[YYYY-MM-DD]",
+      "activity": "Initial maintenance plan created",
+      "hours_spent": 0.5,
+      "cost_incurred_usd": 0,
+      "notes": "Baseline established"
+    }
+  ],
+
+  "sunset_plan": {
+    "graceful_shutdown_checklist": [
+      "Add banner: 'This demo is archived for reference'",
+      "Update README with project status",
+      "Keep GitHub repo public (code still valuable)",
+      "Stop hosting service / downgrade to free tier",
+      "Cancel API subscriptions",
+      "Update LinkedIn/portfolio to note 'archived project'",
+      "Keep screenshots/video demos for reference"
+    ],
+    "estimated_sunset_date": "[YYYY-MM-DD or 'TBD based on job search']"
+  },
+
+  "notes": "Review this plan monthly. Adjust budgets if costs/time change significantly."
+}

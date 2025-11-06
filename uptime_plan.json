@@ -1,0 +1,33 @@
+{
+  "project_name": "[ENTER YOUR PROJECT NAME]",
+  "demo_url": "[ENTER YOUR LIVE DEMO URL]",
+  "monitoring": {
+    "provider": "[e.g., UptimeRobot, Pingdom, etc.]",
+    "check_interval_minutes": 5,
+    "uptime_target_percentage": 99.0,
+    "alert_email": "[YOUR EMAIL]",
+    "monitoring_dashboard_url": "[ENTER MONITORING DASHBOARD URL]"
+  },
+  "hosting": {
+    "provider": "[e.g., Railway, Render, Vercel, etc.]",
+    "current_plan": "[e.g., Free Tier, Hobby, etc.]",
+    "monthly_usage_limits": {
+      "bandwidth_gb": "[e.g., 100]",
+      "build_hours": "[e.g., 500]",
+      "requests_per_month": "[e.g., 1000000]"
+    },
+    "current_usage_check_url": "[ENTER DASHBOARD URL]",
+    "alert_threshold_percentage": 80
+  },
+  "authentication": {
+    "api_keys_expiry_date": "[YYYY-MM-DD or 'never']",
+    "rotation_schedule": "[e.g., 'every 90 days' or 'as needed']",
+    "documented_rotation_process": "[YES/NO]"
+  },
+  "maintenance_log": {
+    "last_checked": "[YYYY-MM-DD]",
+    "next_check_due": "[YYYY-MM-DD]",
+    "incidents": []
+  },
+  "notes": "Use this file to track your demo's reliability. Update weekly during job search."
+}
